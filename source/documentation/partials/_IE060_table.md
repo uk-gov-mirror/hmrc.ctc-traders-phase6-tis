@@ -69,13 +69,13 @@
     <td>D</td>
     <td>an..22</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0685">C0685</a></td>
+    <td><a href="rules-c.html#c0467">C0467</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp; MRN</td>
     <td>D</td>
     <td>an18</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0685">C0685</a><br /><a href="rules-g.html#g0002">G0002</a></td>
+    <td><a href="rules-c.html#c0467">C0467</a><br /><a href="rules-g.html#g0002">G0002</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp; Control notification date and time</td>
     <td>R</td>

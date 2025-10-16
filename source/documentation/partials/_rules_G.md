@@ -6,15 +6,26 @@ If at least one &lt;CONSIGNMENT-HOUSE CONSIGNMENT-ADDITIONAL INFORMATION.Code&gt
 EQUAL to ’30600’ in the declaration, then for the specific &lt;CONSIGNMENT-HOUSE
 CONSIGNMENT&gt; the Data Group CONSIGNEE shall not be used AND &lt;CONSIGNMENT-
 CONSIGNEE&gt; shall not be used. For the rest of the repetitions of &lt;CONSIGNMENT-HOUSE
-CONSIGNMENT&gt; the specific IF statement (“If at least one &lt;CONSIGNMENT-HOUSE
-CONSIGNMENT-ADDITIONAL INFORMATION.Code&gt; is EQUAL to ’30600’”) shall be re-validated.<br /><br />
-During the Transitional Period same approach shall be followed for the &lt;CONSIGNMENT-HOUSE
-CONSIGNMENT-CONSIGNMENT ITEM-ADDITIONAL INFORMATION.Code&gt;.
+CONSIGNMENT&gt; the specific IF statement [If at least one &lt;CONSIGNMENT-HOUSE
+CONSIGNMENT-ADDITIONAL INFORMATION.Code&gt; is EQUAL to ’30600’] shall be re-validated.<br /><br />
+During the NCTS-P4/NCTS-P5 Transitional Period same approach shall be followed for the
+&lt;CONSIGNMENT-HOUSE CONSIGNMENT-CONSIGNMENT ITEM-ADDITIONAL
+INFORMATION.Code&gt;.
 
 **Technical Description**
 
 N/A
 
+
+## G0002
+
+**Functional Description**
+
+XSD contains a non-standard regular expression for this data item.
+
+**Technical Description**
+
+N/A
 
 ## G0002
 
@@ -133,11 +144,11 @@ N/A
 
 **Functional Description**
 
-'State of seals' = ‘0’ in case that the seals are not in good state (i.e. expected but not present OR
+'State of seals' = '0' in case that the seals are not in good state (i.e. expected but not present OR
 damaged OR present with discrepancies found). In this case, the &lt;CD018C-CONTROL
-RESULT.Code&gt; is ‘A5’ (or ‘B1’ if more (major) discrepancies are identified) as defined in the Transit
+RESULT.Code&gt; is 'A5' (or 'B1' if more (major) discrepancies are identified) as defined in the Transit
 Manual.<br /><br />
-'State of seals' = ‘1’ in case that the seals are in good state (present and not damaged, with no
+'State of seals' = '1' in case that the seals are in good state (present and not damaged, with no
 discrepancies found) OR [applicable for the CD018C only] not present as expected based on
 information received from other Customs Offices.
 
@@ -263,15 +274,19 @@ N/A
 In case of Export followed by Transit and whenever the internal transit procedure is applied, the
 Declared Office of Destination needs to be ‘appropriate’, otherwise the initial submission and/or
 subsequent amendment requests of the transit declaration data as submitted by the Holder of the
-Transit Procedure to the Office of Departure has to be rejected. This can be validated as follows:<br /><br />
+Transit Procedure to the Office of Departure has to be rejected.  This can be validated as follows:<br /><br />
 A/ In case the Declared Office of Destination belongs to EU MS (CL010- CountryCodesCommunity),
 and its Custom Office Reference Number is included in both CL172- CustomsOfficeDestination and
 CL294-CustomsOfficeExitDeclared, then it is considered ‘appropriate’ (otherwise is considered not
 ‘appropriate’);
 B/ In case the Declared Office of Destination belongs to CTC (CL112- CountryCodesCTC), it is
 considered by default ‘appropriate’.
-When the Declared Office of Destination is considered as not ‘appropriate’, the messages CC013C or
-CC015C will be responded with CC056C that will report the error code '12- Codelist violation'.
+For Opt-in NA’s, when the Declared Office of Destination is considered as not ‘appropriate’, the
+messages CCA13D or CCA15D will be responded with CC056D that will report the error code '12-
+Codelist violation'.
+For Opt-out NA’s, when the Declared Office of Destination is considered as not ‘appropriate’, the
+messages CC013C or CC015C will be responded with CC056C that will report the error code '12-
+Codelist violation'.
 
 **Technical Description**
 
@@ -294,8 +309,8 @@ N/A
 
 **Functional Description**
 
-The information in this Data Group/Data Item will override the information included in the CC015C (or
-in the latest CC013C, if any).
+The information in this Data Group/Data Item will override the information included in the CC015C or
+CCA15D (or in the latest CC013C or CCA13D, if any).
 
 **Technical Description**
 
@@ -330,7 +345,7 @@ N/A
 
 **Functional Description**
 
-When &lt;CONSIGNMENT-HOUSE CONSIGNMENT-CONSIGNMENT ITEM-PREVIOUS
+When &lt;CONSIGNMENT - HOUSE CONSIGNMENT - CONSIGNMENT ITEM - PREVIOUS
 DOCUMENT.Type&gt; is in SET {C651, C658} the Unique Body Reference (UBR) is required to be
 recorded in this field.
 
@@ -346,7 +361,7 @@ N/A
 The information presented in this D.G. is related to Safety & Security and to the Binding Itinerary. In
 case of Binding itinerary, the information entered must include the list of codes of the countries
 between the Office of Departure and the Office of Destination. If more information is available about
-the countries visited by the means of transport since it's first place of loading until the last place of
+the countries visited by the means of transport since its first place of loading until the last place of
 unloading, it should also be added for Safety & Security purpose only.
 
 **Technical Description**
@@ -358,13 +373,13 @@ N/A
 
 **Functional Description**
 
-The rules R0506 and R0507 are applied on CC015C and CC013C to ensure that the declaration does
-not include unnecessary and repetitive information. They must be enforced by all NTA. Considering the
-possibility that one Goods Item is taken out from the declaration during the control, the message
-CC029C and CD001C may have different content from CC015C (or CC013C or CC170C).
-Consequently, those rules R0506 and R0507 shall not be strictly enforced on the Common Domain
-messages. Certainly not by the recipient of the CD message, likely not by the sender of the CD
-message.
+The rules R0506 and R0507 are applied on CC015C, CCA15D,CC013C and CCA13D to ensure that
+the declaration does not include unnecessary and repetitive information. They must be enforced by all
+NTA. Considering the possibility that one Goods Item is taken out from the declaration during the
+control, the message CC029C, CCA29D and CD001C may have different content from CC015C,
+CCA15D (or CC013C, CCA13D or CC170C). Consequently, those rules R0506 and R0507 shall not be
+strictly enforced on the Common Domain messages. Certainly not by the recipient of the CD message,
+likely not by the sender of the CD message.
 
 **Technical Description**
 
@@ -375,12 +390,13 @@ N/A
 
 **Functional Description**
 
-The Data Group &lt;CONSIGNMENT- HOUSE CONSIGNMENT- CONSIGNMENT ITEM- ADDITIONAL
+'The Data Group &lt;CONSIGNMENT- HOUSE CONSIGNMENT- CONSIGNMENT ITEM- ADDITIONAL
 REFERENCE&gt; will be also used to include the information of EMCS consignment exported from one
 EU member state into a Non-EU-Member state, in case of Export Followed by Transit (where in
-messages CC013C or CC015C the &lt;CONSIGNMENT- HOUSE CONSIGNMENT- PREVIOUS
-DOCUMENT.Type&gt; = ‘N830’ AND &lt;CONSIGNMENT- HOUSE CONSIGNMENT- CONSIGNMENT
-ITEM- ADDITIONAL REFERENCE.Type&gt; is in SET CL234 (DocumentTypeExcise)).
+messages CC013C or CCA13D or CC015C or CCA15D the &lt;CONSIGNMENT- HOUSE
+CONSIGNMENT- PREVIOUS
+DOCUMENT.Type&gt; = 'N830' AND &lt;CONSIGNMENT- HOUSE CONSIGNMENT- CONSIGNMENT
+ITEM-  ADDITIONAL REFERENCE. Type&gt; is in SET CL234 (DocumentTypeExcise)).
 In this case, the Data Group &lt;GOODS SHIPMENT- GOODS ITEM- PREVIOUS DOCUMENT&gt; of the
 Export declaration, will be mapped with the Data Group &lt;CONSIGNMENT- HOUSE CONSIGNMENT-
 CONSIGNMENT ITEM- ADDITIONAL REFERENCE&gt; of the Transit declaration.
@@ -410,7 +426,7 @@ N/A
 **Functional Description**
 
 In case of Export Followed by Transit (i.e. &lt;CONSIGNMENT-HOUSE CONSIGNMENT- PREVIOUS
-DOCUMENT.Type&gt; = ‘N830’), all and only the goods items declared in &lt;GOODS SHIPMENT-GOODS
+DOCUMENT.Type&gt; = 'N830'), all and only the goods items declared in &lt;GOODS SHIPMENT-GOODS
 ITEM&gt; as defined in the related Export declaration (identified by the MRN) must be included in
 &lt;CONSIGNMENT-HOUSE CONSIGNMENT- CONSIGNMENT ITEM&gt; Data Group.
 
@@ -424,7 +440,7 @@ N/A
 **Functional Description**
 
 In case of Export Followed By Transit (&lt;CONSIGNMENT-HOUSE CONSIGNMENT- PREVIOUS
-DOCUMENT.Type&gt; = ‘N830’),
+DOCUMENT.Type&gt; = 'N830'),
 -   all the goods items declared in &lt;GOODS SHIPMENT-GOODS ITEM&gt; as defined in the related Export
 declaration (identified by the MRN) and
 -   all the goods items declared in the &lt;CONSIGNMENT-HOUSE CONSIGNMENT- CONSIGNMENT
@@ -433,6 +449,21 @@ must be listed in the same order (with &lt;GOODS SHIPMENT-GOODS ITEM.Declaration
 number&gt; = &lt;CONSIGNMENT-HOUSE CONSIGNMENT- CONSIGNMENT ITEM.Goods item
 number&gt;). Keeping the order of the goods item is required to enable the automatic validation of the
 matching of the goods in the context of Export followed by Transit.
+
+**Technical Description**
+
+N/A
+
+
+## G0079
+
+**Functional Description**
+
+The information presented in in this D.G. is related to Safety & Security and to the Binding Itinerary.<br /><br />
+In case of Binding itinerary, the information entered must include the list of codes of the countries
+between the Office of Departure and the Office of Destination.<br /><br />
+In case of combined transit declaration with ENS data, the list of countries visited by the means of
+transport between the first place of loading until the last place of unloading shall be included.
 
 **Technical Description**
 
@@ -459,6 +490,28 @@ The Data Group ‘Carrier’ shall be provided if the value is different from th
 procedure’.
 The Data Group ‘Carrier’ should not be present if the ‘Holder of the transit procedure’ is also the
 ‘Carrier’.
+
+**Technical Description**
+
+N/A
+
+
+## G0100
+
+**Functional Description**
+
+If &lt;TRADER AT DESTINATION.Communication language at destination&gt; is PRESENT, then the
+indicated language is used as the basic language in any further communication between the Trader
+and the Customs system. If &lt;TRADER AT DESTINATION.Communication language at destination&gt; is
+not PRESENT then the Customs system will use the default language of the Office concerned;
+If &lt;TRANSIT OPERATION.Communication language at transit&gt; is PRESENT, then the indicated
+language is used as the basic language in any further communication between the Trader and the
+Customs system. If &lt;TRANSIT OPERATION.Communication language at transit&gt; is not PRESENT
+then the Customs system will use the default language of the Office concerned;
+If &lt;TRANSIT OPERATION.Communication language at departure&gt; is PRESENT, then the indicated
+language is used as the basic language in any further communication between the Trader and the
+Customs system. If &lt;TRANSIT OPERATION.Communication language at departure&gt; is not PRESENT
+then the Customs system will use the default language of the Office concerned.
 
 **Technical Description**
 
@@ -632,7 +685,8 @@ N/A
 
 The Data Item ‘Identification number’ is required for the Data Group ‘HOLDER OF THE TRANSIT
 PROCEDURE’, except for:<br /><br />
-- economic operators residing outside of the common transit countries (outside CL009), and
+- economic operators residing outside of the common transit countries (outside CL009
+(CountryCodesCommonTransit)), and
 - private individuals for which an identification number may be used but is not required.
 
 **Technical Description**
@@ -682,8 +736,8 @@ N/A
 
 The Data Item shall be filled, by using the information of the &lt;TRANSIT OPERATION. Limit date&gt;,
 included either:<br /><br />
-- in the initial declaration CC015C message or
-- in any possible amendments CC013C or
+- in the initial declaration CC015C or CCA15D messages or
+- in any possible amendments CC013C or CCA13D or
 - using the revised expected arrival date entered by the Officer at the Office Of Departure when the
 movement is released for transit.
 
@@ -708,8 +762,8 @@ N/A
 
 **Functional Description**
 
-The ‘0’ (zero) value should only be used in cases where the customs officer identifies that two or more
-goods items are packaged together but this was not declared correctly at first instance.
+The ‘0’ (zero) value should only be used in cases where it has been identified that two or more goods
+items are packaged together but this was not declared correctly at first instance.
 
 **Technical Description**
 
@@ -769,12 +823,13 @@ N/A
 **Functional Description**
 
 &lt;UNLOADING REMARK.Unloading completion&gt; is used as a flag and it can contain 2 possible values:<br /><br />
- ‘0’ = ‘NO’ This means that the unloading of the goods is not yet completed;
- ‘1’ = ‘YES’ This means that the goods are completely unloaded.
+     '0' = 'NO' This means that the unloading of the goods is not yet completed;
+     '1' = 'YES' This means that the goods are completely unloaded.
 
 **Technical Description**
 
 N/A
+
 
 ## G0196
 
@@ -794,8 +849,8 @@ N/A
 
 Rule R0840 shall be validated only by MS. IF the sender is a CTC country THEN the &lt;CUSTOMS
 OFFICE OF TRANSIT&gt; in MS, that detects the violation of R0840, should request a new ENS
-declaration before it authorizes the goods to enter the EU. The message CD050C or CD115C from a
-CTC country may not be rejected if R0840 is violated.
+declaration before it authorizes the goods to enter the EU. The message IE050 or IE115 from a CTC
+country may not be rejected if R0840 is violated.
 
 **Technical Description**
 
@@ -807,8 +862,8 @@ N/A
 **Functional Description**
 
 &lt;UNLOADING REMARK.Conform&gt; is used as a flag and it can contain 2 possible values:<br /><br />
-   ‘0’ = ‘NO’ there are unloading remarks;
-   ‘1’ = ‘YES’ no unloading remarks present.
+   '0' = 'NO' there are unloading remarks;
+   '1' = 'YES' no unloading remarks present.
 
 **Technical Description**
 
@@ -876,6 +931,21 @@ N/A
 IF &lt;Container indicator&gt; is NOT PRESENT then data group &lt;TRANSPORT EQUIPMENT&gt; shall NOT
 be PRESENT, too. &lt;Container indicator&gt; functions as the governing data item for data group
 &lt;TRANSPORT EQUIPMENT&gt;.
+
+**Technical Description**
+
+N/A
+
+
+## G0360
+
+**Functional Description**
+
+IF discrepancies have been found in one or more Data Groups or Data Items
+OR
+a new data element has been found during the control
+THEN the D.G. / D.I.= "R" and is used to report these discrepancies
+ELSE the D.G. / D.I. = "N".
 
 **Technical Description**
 
@@ -994,9 +1064,9 @@ The ’Customs office at border reference number’ identifies the border crossi
 ‘Active border transport means’ will be present. It is either the ‘Reference number’ of one of the
 ‘CUSTOMS OFFICE OF TRANSIT (DECLARED)’ or the ‘Reference number’ of one of the ‘CUSTOMS
 OFFICE OF EXIT FOR TRANSIT (DECLARED)’ or the ‘Reference number’ of the ‘CUSTOMS OFFICE
-OF DESTINATION (DECLARED)’. By using this Data Item, it is possible (after the end of the
-Transitional Period) to identify which transport means will be present at which border crossing point, in
-case of multiple BCP and multiple changes of active transport means.
+OF DESTINATION (DECLARED)’. By using this Data Item, it is possible (after the end of the NCTS-
+P4/NCTS-P5 Transitional Period) to identify which transport means will be present at which border
+crossing point, in case of multiple BCP and multiple changes of active transport means.
 
 **Technical Description**
 
@@ -1086,24 +1156,10 @@ N/A
 
 This Data Group is inserted as transitional but without any transitional measure applied to it. The Data
 Group is present in this message, in order to ensure consistency of the structure across the lifecycle of
-the movements during the Transitional Period.<br /><br />
+the movements during the NCTS-P4/NCTS-P5 Transitional Period.<br /><br />
 This Guideline aims to draw the attention on the potential need for Technical Rules for Transition
 (Exxxx) or Business Rules for Transition (B1xxx and B2xxx) as defined in the section “1. Introduction”
 of DDNTA APPENDIX Q2.
-
-**Technical Description**
-
-N/A
-
-
-## G0991
-
-**Functional Description**
-
-During the Transitional Period, the value ‘N830’ (Goods declaration for exportation) is defined as valid
-in codelist CL214 (PreviousDocumentType). From the end date of the Transitional Period, the value
-‘N830’ will become valid ONLY in the CL228 (PreviousDocumentExportType) to indicate the “Export
-Followed by Transit” procedure in the Data Group &lt;CONSIGNMENT-HOUSE CONSIGNMENT&gt;.
 
 **Technical Description**
 

@@ -71,19 +71,19 @@
     <td>&nbsp;</td>
     <td><a href="rules-g.html#g0002">G0002</a></td>
 </tr><tr>
-    <td>-&nbsp;-&nbsp; Discrepancies notification date</td>
+    <td><strong>-&nbsp; CUSTOMS OFFICE OF DESTINATION (ACTUAL)</strong></td>
+    <td>D</td>
+    <td>1x</td>
+    <td>&nbsp;</td>
+    <td><a href="rules-s.html#s1018">S1018</a><br /><a href="rules-c.html#c0215">C0215</a><br /><a href="rules-c.html#c0315">C0315</a></td>
+</tr><tr>
+    <td>-&nbsp;-&nbsp; Reference number</td>
     <td>R</td>
-    <td>an10</td>
-    <td>&nbsp;</td>
-    <td><a href="rules-g.html#g0002">G0002</a></td>
-</tr><tr>
-    <td>-&nbsp;-&nbsp; Discrepancies notification text</td>
-    <td>O</td>
-    <td>an..512</td>
-    <td>&nbsp;</td>
+    <td>an8</td>
+    <td>CL172</td>
     <td>&nbsp;</td>
 </tr><tr>
-    <td><strong>-&nbsp; CUSTOMS OFFICE OF DEPARTURE</strong></td>
+    <td><strong>-&nbsp; CUSTOMS OFFICE OF ENQUIRY AT DEPARTURE</strong></td>
     <td>R</td>
     <td>1x</td>
     <td>&nbsp;</td>
@@ -92,7 +92,7 @@
     <td>-&nbsp;-&nbsp; Reference number</td>
     <td>R</td>
     <td>an8</td>
-    <td>CL171</td>
+    <td>CL176</td>
     <td>&nbsp;</td>
 </tr><tr>
     <td><strong>-&nbsp; HOLDER OF THE TRANSIT PROCEDURE</strong></td>
@@ -149,51 +149,75 @@
     <td>CL248</td>
     <td>&nbsp;</td>
 </tr><tr>
-    <td><strong>-&nbsp; GUARANTOR</strong></td>
+    <td><strong>-&nbsp; ENQUIRY</strong></td>
     <td>O</td>
     <td>1x</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
 </tr><tr>
-    <td>-&nbsp;-&nbsp; Identification number</td>
-    <td>R</td>
-    <td>an..17</td>
+    <td>-&nbsp;-&nbsp; TC11 delivery date</td>
+    <td>O</td>
+    <td>an10</td>
     <td>&nbsp;</td>
-    <td><a href="rules-g.html#g0002">G0002</a><br /><a href="rules-r.html#r0860">R0860</a></td>
+    <td><a href="rules-g.html#g0002">G0002</a></td>
 </tr><tr>
-    <td>-&nbsp;-&nbsp; Name</td>
+    <td>-&nbsp;-&nbsp; Text</td>
     <td>D</td>
-    <td>an..70</td>
+    <td>an..512</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0250">C0250</a></td>
+    <td><a href="rules-c.html#c0220">C0220</a></td>
 </tr><tr>
-    <td><strong>-&nbsp;-&nbsp; ADDRESS</strong></td>
+    <td><strong>-&nbsp; CONSIGNMENT</strong></td>
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0250">C0250</a></td>
+    <td><a href="rules-c.html#c0215">C0215</a></td>
 </tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp; Street and number</td>
+    <td><strong>-&nbsp;-&nbsp; CONSIGNEE (ACTUAL)</strong></td>
+    <td>R</td>
+    <td>1x</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+</tr><tr>
+    <td>-&nbsp;-&nbsp;-&nbsp; Identification number</td>
+    <td>O</td>
+    <td>an..17</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+</tr><tr>
+    <td>-&nbsp;-&nbsp;-&nbsp; Name</td>
     <td>R</td>
     <td>an..70</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
 </tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp; Postcode</td>
+    <td><strong>-&nbsp;-&nbsp;-&nbsp; ADDRESS</strong></td>
+    <td>R</td>
+    <td>1x</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+</tr><tr>
+    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Street and number</td>
+    <td>R</td>
+    <td>an..70</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+</tr><tr>
+    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Postcode</td>
     <td>D</td>
     <td>an..17</td>
     <td>&nbsp;</td>
     <td><a href="rules-c.html#c0505">C0505</a></td>
 </tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp; City</td>
+    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; City</td>
     <td>R</td>
     <td>an..35</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
 </tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp; Country</td>
+    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Country</td>
     <td>R</td>
     <td>a2</td>
-    <td>CL070</td>
+    <td>CL248</td>
     <td>&nbsp;</td>
 </tr></table>

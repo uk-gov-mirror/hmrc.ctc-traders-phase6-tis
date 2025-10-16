@@ -81,7 +81,7 @@
     <td>R</td>
     <td>an3</td>
     <td>CL560</td>
-    <td>&nbsp;</td>
+    <td><a href="rules-r.html#r0852">R0852</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp; Rejection date and time</td>
     <td>R</td>
@@ -99,7 +99,7 @@
     <td>D</td>
     <td>an..512</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0492">C0492</a></td>
+    <td><a href="rules-c.html#c0495">C0495</a></td>
 </tr><tr>
     <td><strong>-&nbsp; CUSTOMS OFFICE OF DEPARTURE</strong></td>
     <td>R</td>
@@ -200,8 +200,8 @@
     <td>-&nbsp;-&nbsp; Error code</td>
     <td>R</td>
     <td>n2</td>
-    <td>CL180</td>
-    <td>&nbsp;</td>
+    <td>CL437</td>
+    <td><a href="rules-r.html#r0437">R0437</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp; Error reason</td>
     <td>R</td>

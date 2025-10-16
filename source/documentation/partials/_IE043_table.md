@@ -215,6 +215,12 @@
     <td>&nbsp;</td>
     <td><a href="rules-c.html#c0027">C0027</a><br /><a href="rules-r.html#r0994">R0994</a></td>
 </tr><tr>
+    <td>-&nbsp;-&nbsp; Reference number UCR</td>
+    <td>D</td>
+    <td>an..70</td>
+    <td>&nbsp;</td>
+    <td><a href="rules-c.html#c0502">C0502</a><br /><a href="rules-g.html#g0002">G0002</a></td>
+</tr><tr>
     <td><strong>-&nbsp;-&nbsp; CONSIGNOR</strong></td>
     <td>O</td>
     <td>1x</td>
@@ -267,7 +273,7 @@
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0001">C0001</a><br /><a href="rules-g.html#g0001">G0001</a></td>
+    <td><a href="rules-c.html#c0003">C0003</a><br /><a href="rules-g.html#g0001">G0001</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Identification number</td>
     <td>O</td>
@@ -401,6 +407,24 @@
     <td>CL165</td>
     <td>&nbsp;</td>
 </tr><tr>
+    <td><strong>-&nbsp;-&nbsp; COUNTRY OF ROUTING OF CONSIGNMENT</strong></td>
+    <td>D</td>
+    <td>99x</td>
+    <td>&nbsp;</td>
+    <td><a href="rules-c.html#c0586">C0586</a><br /><a href="rules-g.html#g0079">G0079</a></td>
+</tr><tr>
+    <td>-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
+    <td>R</td>
+    <td>n..5</td>
+    <td>&nbsp;</td>
+    <td><a href="rules-r.html#r0987">R0987</a></td>
+</tr><tr>
+    <td>-&nbsp;-&nbsp;-&nbsp; Country</td>
+    <td>R</td>
+    <td>a2</td>
+    <td>CL008</td>
+    <td>&nbsp;</td>
+</tr><tr>
     <td><strong>-&nbsp;-&nbsp; PREVIOUS DOCUMENT</strong></td>
     <td>O</td>
     <td>9999x</td>
@@ -417,7 +441,7 @@
     <td>R</td>
     <td>an4</td>
     <td>CL214</td>
-    <td><a href="rules-g.html#g0057">G0057</a><br /><a href="rules-r.html#r0020">R0020</a></td>
+    <td><a href="rules-g.html#g0057">G0057</a><br /><a href="rules-r.html#r0020">R0020</a><br /><a href="rules-r.html#r0093">R0093</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Reference number</td>
     <td>R</td>
@@ -675,7 +699,7 @@
     <td>D</td>
     <td>n..4</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0396">C0396</a><br /><a href="rules-g.html#g0021">G0021</a><br /><a href="rules-g.html#g0023">G0023</a><br /><a href="rules-r.html#r0106">R0106</a><br /><a href="rules-r.html#r0448">R0448</a></td>
+    <td><a href="rules-c.html#c0396">C0396</a><br /><a href="rules-g.html#g0021">G0021</a><br /><a href="rules-g.html#g0023">G0023</a><br /><a href="rules-r.html#r0106">R0106</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp; SEAL</strong></td>
     <td>D</td>
@@ -765,13 +789,19 @@
     <td>D</td>
     <td>a2</td>
     <td>CL008</td>
-    <td><a href="rules-c.html#c0343">C0343</a><br /><a href="rules-g.html#g0042">G0042</a></td>
+    <td><a href="rules-c.html#c0343">C0343</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Gross mass</td>
     <td>R</td>
     <td>n..16,6</td>
     <td>&nbsp;</td>
     <td><a href="rules-r.html#r0983">R0983</a></td>
+</tr><tr>
+    <td>-&nbsp;-&nbsp;-&nbsp; Reference number UCR</td>
+    <td>D</td>
+    <td>an..70</td>
+    <td>&nbsp;</td>
+    <td><a href="rules-c.html#c0502">C0502</a><br /><a href="rules-g.html#g0002">G0002</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Security indicator from export declaration</td>
     <td>O</td>
@@ -831,13 +861,13 @@
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0001">C0001</a><br /><a href="rules-g.html#g0001">G0001</a></td>
+    <td><a href="rules-c.html#c0003">C0003</a><br /><a href="rules-g.html#g0001">G0001</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Identification number</td>
     <td>O</td>
     <td>an..17</td>
     <td>&nbsp;</td>
-    <td><a href="rules-r.html#r0851">R0851</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Name</td>
     <td>D</td>
@@ -921,7 +951,7 @@
     <td>R</td>
     <td>an4</td>
     <td>CL228</td>
-    <td><a href="rules-g.html#g0991">G0991</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Reference number</td>
     <td>R</td>
@@ -1067,6 +1097,12 @@
     <td>CL008</td>
     <td><a href="rules-c.html#c0343">C0343</a><br /><a href="rules-g.html#g0113">G0113</a></td>
 </tr><tr>
+    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Reference number UCR</td>
+    <td>D</td>
+    <td>an..70</td>
+    <td>&nbsp;</td>
+    <td><a href="rules-c.html#c0502">C0502</a><br /><a href="rules-g.html#g0002">G0002</a><br /><a href="rules-g.html#g0062">G0062</a></td>
+</tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp; CONSIGNEE</strong></td>
     <td>O</td>
     <td>1x</td>
@@ -1112,7 +1148,7 @@
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Country</td>
     <td>R</td>
     <td>a2</td>
-    <td>CL248</td>
+    <td>CL199</td>
     <td>&nbsp;</td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp; COMMODITY</strong></td>
@@ -1137,7 +1173,7 @@
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0153">C0153</a></td>
+    <td><a href="rules-c.html#c0154">C0154</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Harmonized System sub-heading code</td>
     <td>R</td>
@@ -1233,7 +1269,7 @@
     <td>R</td>
     <td>an4</td>
     <td>CL214</td>
-    <td><a href="rules-g.html#g0057">G0057</a><br /><a href="rules-g.html#g0991">G0991</a><br /><a href="rules-r.html#r0020">R0020</a></td>
+    <td><a href="rules-g.html#g0057">G0057</a><br /><a href="rules-r.html#r0020">R0020</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Reference number</td>
     <td>R</td>

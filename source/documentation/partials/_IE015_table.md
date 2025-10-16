@@ -57,7 +57,7 @@
     <td>D</td>
     <td>an..35</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1833">B1833</a><br /><a href="rules-c.html#c0511">C0511</a><br /><a href="rules-r.html#r0008">R0008</a></td>
+    <td><a href="rules-c.html#c0511">C0511</a><br /><a href="rules-r.html#r0008">R0008</a></td>
 </tr><tr>
     <td><strong>-&nbsp; TRANSIT OPERATION</strong></td>
     <td>R</td>
@@ -75,7 +75,7 @@
     <td>R</td>
     <td>an..5</td>
     <td>CL231</td>
-    <td><a href="rules-b.html#b1922">B1922</a><br /><a href="rules-r.html#r0601">R0601</a><br /><a href="rules-r.html#r0909">R0909</a><br /><a href="rules-r.html#r0911">R0911</a></td>
+    <td><a href="rules-r.html#r0601">R0601</a><br /><a href="rules-r.html#r0909">R0909</a><br /><a href="rules-r.html#r0911">R0911</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp; Additional declaration type</td>
     <td>R</td>
@@ -117,7 +117,7 @@
     <td>O</td>
     <td>a2</td>
     <td>CL192</td>
-    <td><a href="rules-r.html#r0100">R0100</a></td>
+    <td><a href="rules-g.html#g0100">G0100</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp; Binding itinerary</td>
     <td>R</td>
@@ -195,19 +195,19 @@
     <td>R</td>
     <td>an8</td>
     <td>CL173</td>
-    <td><a href="rules-b.html#b1813">B1813</a><br /><a href="rules-g.html#g0142">G0142</a><br /><a href="rules-r.html#r0003">R0003</a><br /><a href="rules-r.html#r0006">R0006</a><br /><a href="rules-r.html#r0906">R0906</a></td>
+    <td><a href="rules-g.html#g0142">G0142</a><br /><a href="rules-r.html#r0003">R0003</a><br /><a href="rules-r.html#r0006">R0006</a><br /><a href="rules-r.html#r0906">R0906</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp; Arrival date and time (estimated)</td>
     <td>D</td>
     <td>an19</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1831">B1831</a><br /><a href="rules-b.html#b1904">B1904</a><br /><a href="rules-c.html#c0598">C0598</a><br /><a href="rules-g.html#g0002">G0002</a><br /><a href="rules-r.html#r0005">R0005</a></td>
+    <td><a href="rules-c.html#c0598">C0598</a><br /><a href="rules-g.html#g0002">G0002</a><br /><a href="rules-r.html#r0005">R0005</a></td>
 </tr><tr>
     <td><strong>-&nbsp; CUSTOMS OFFICE OF EXIT FOR TRANSIT (DECLARED)</strong></td>
     <td>D</td>
     <td>9x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1966">B1966</a><br /><a href="rules-c.html#c0587">C0587</a><br /><a href="rules-g.html#g0587">G0587</a></td>
+    <td><a href="rules-c.html#c0587">C0587</a><br /><a href="rules-g.html#g0587">G0587</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -243,7 +243,7 @@
     <td>D</td>
     <td>an..70</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0250">C0250</a><br /><a href="rules-e.html#e1104">E1104</a></td>
+    <td><a href="rules-c.html#c0250">C0250</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp; ADDRESS</strong></td>
     <td>D</td>
@@ -255,13 +255,13 @@
     <td>R</td>
     <td>an..70</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1104">E1104</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Postcode</td>
     <td>D</td>
     <td>an..17</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0505">C0505</a><br /><a href="rules-e.html#e1102">E1102</a></td>
+    <td><a href="rules-c.html#c0505">C0505</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; City</td>
     <td>R</td>
@@ -387,19 +387,19 @@
     <td>D</td>
     <td>an..4</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0086">C0086</a><br /><a href="rules-e.html#e1118">E1118</a></td>
+    <td><a href="rules-c.html#c0086">C0086</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Amount to be covered</td>
-    <td>O</td>
+    <td>R</td>
     <td>n..16,2</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b2101">B2101</a><br /><a href="rules-g.html#g0021">G0021</a></td>
+    <td><a href="rules-g.html#g0021">G0021</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Currency</td>
-    <td>O</td>
+    <td>R</td>
     <td>a3</td>
     <td>CL048</td>
-    <td><a href="rules-b.html#b1898">B1898</a><br /><a href="rules-b.html#b2101">B2101</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td><strong>-&nbsp; CONSIGNMENT</strong></td>
     <td>R</td>
@@ -411,7 +411,7 @@
     <td>D</td>
     <td>a2</td>
     <td>CL008</td>
-    <td><a href="rules-b.html#b1965">B1965</a><br /><a href="rules-c.html#c0909">C0909</a><br /><a href="rules-g.html#g0988">G0988</a></td>
+    <td><a href="rules-c.html#c0909">C0909</a><br /><a href="rules-g.html#g0988">G0988</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp; Country of destination</td>
     <td>D</td>
@@ -435,19 +435,19 @@
     <td>D</td>
     <td>n1</td>
     <td>CL218</td>
-    <td><a href="rules-b.html#b1889">B1889</a><br /><a href="rules-c.html#c0599">C0599</a><br /><a href="rules-g.html#g0020">G0020</a><br /><a href="rules-g.html#g0115">G0115</a></td>
+    <td><a href="rules-c.html#c0599">C0599</a><br /><a href="rules-g.html#g0020">G0020</a><br /><a href="rules-g.html#g0115">G0115</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp; Gross mass</td>
     <td>R</td>
     <td>n..16,6</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1109">E1109</a><br /><a href="rules-r.html#r0994">R0994</a></td>
+    <td><a href="rules-r.html#r0994">R0994</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp; Reference number UCR</td>
     <td>D</td>
     <td>an..35</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1895">B1895</a><br /><a href="rules-c.html#c0502">C0502</a><br /><a href="rules-g.html#g0002">G0002</a></td>
+    <td><a href="rules-c.html#c0502">C0502</a><br /><a href="rules-g.html#g0002">G0002</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp; CARRIER</strong></td>
     <td>O</td>
@@ -501,7 +501,7 @@
     <td>D</td>
     <td>an..70</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0250">C0250</a><br /><a href="rules-e.html#e1104">E1104</a></td>
+    <td><a href="rules-c.html#c0250">C0250</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp; ADDRESS</strong></td>
     <td>D</td>
@@ -513,13 +513,13 @@
     <td>R</td>
     <td>an..70</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1104">E1104</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Postcode</td>
     <td>D</td>
     <td>an..17</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0505">C0505</a><br /><a href="rules-e.html#e1102">E1102</a></td>
+    <td><a href="rules-c.html#c0505">C0505</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; City</td>
     <td>R</td>
@@ -561,7 +561,7 @@
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1823">B1823</a><br /><a href="rules-c.html#c0001">C0001</a><br /><a href="rules-g.html#g0001">G0001</a></td>
+    <td><a href="rules-c.html#c0001">C0001</a><br /><a href="rules-g.html#g0001">G0001</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Identification number</td>
     <td>O</td>
@@ -573,7 +573,7 @@
     <td>D</td>
     <td>an..70</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0250">C0250</a><br /><a href="rules-e.html#e1104">E1104</a></td>
+    <td><a href="rules-c.html#c0250">C0250</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp; ADDRESS</strong></td>
     <td>D</td>
@@ -585,13 +585,13 @@
     <td>R</td>
     <td>an..70</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1104">E1104</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Postcode</td>
     <td>D</td>
     <td>an..17</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0505">C0505</a><br /><a href="rules-e.html#e1102">E1102</a></td>
+    <td><a href="rules-c.html#c0505">C0505</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; City</td>
     <td>R</td>
@@ -651,7 +651,7 @@
     <td>R</td>
     <td>n..4</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1832">B1832</a><br /><a href="rules-g.html#g0021">G0021</a><br /><a href="rules-r.html#r0106">R0106</a><br /><a href="rules-r.html#r0165">R0165</a><br /><a href="rules-r.html#r0448">R0448</a></td>
+    <td><a href="rules-g.html#g0021">G0021</a><br /><a href="rules-r.html#r0106">R0106</a><br /><a href="rules-r.html#r0165">R0165</a><br /><a href="rules-r.html#r0448">R0448</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp; SEAL</strong></td>
     <td>D</td>
@@ -693,7 +693,7 @@
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1804">B1804</a><br /><a href="rules-c.html#c0710">C0710</a></td>
+    <td><a href="rules-c.html#c0710">C0710</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Type of location</td>
     <td>R</td>
@@ -777,13 +777,13 @@
     <td>R</td>
     <td>an..70</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1104">E1104</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Postcode</td>
     <td>D</td>
     <td>an..17</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0505">C0505</a><br /><a href="rules-e.html#e1102">E1102</a></td>
+    <td><a href="rules-c.html#c0505">C0505</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; City</td>
     <td>R</td>
@@ -849,7 +849,7 @@
     <td>D</td>
     <td>999x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1890">B1890</a><br /><a href="rules-b.html#b1891">B1891</a><br /><a href="rules-c.html#c0826">C0826</a><br /><a href="rules-g.html#g0088">G0088</a><br /><a href="rules-g.html#g0119">G0119</a><br /><a href="rules-r.html#r0855">R0855</a></td>
+    <td><a href="rules-c.html#c0826">C0826</a><br /><a href="rules-g.html#g0088">G0088</a><br /><a href="rules-g.html#g0119">G0119</a><br /><a href="rules-r.html#r0855">R0855</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -858,28 +858,28 @@
     <td><a href="rules-r.html#r0987">R0987</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Type of identification</td>
-    <td>O</td>
+    <td>R</td>
     <td>n2</td>
     <td>CL750</td>
-    <td><a href="rules-b.html#b1091">B1091</a><br /><a href="rules-b.html#b1892">B1892</a><br /><a href="rules-b.html#b2101">B2101</a><br /><a href="rules-g.html#g0112">G0112</a><br /><a href="rules-r.html#r0472">R0472</a><br /><a href="rules-r.html#r0474">R0474</a><br /><a href="rules-r.html#r0476">R0476</a></td>
+    <td><a href="rules-g.html#g0112">G0112</a><br /><a href="rules-r.html#r0472">R0472</a><br /><a href="rules-r.html#r0474">R0474</a><br /><a href="rules-r.html#r0476">R0476</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Identification number</td>
-    <td>O</td>
+    <td>R</td>
     <td>an..35</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1815">B1815</a><br /><a href="rules-b.html#b1892">B1892</a><br /><a href="rules-b.html#b2101">B2101</a><br /><a href="rules-e.html#e1103">E1103</a><br /><a href="rules-r.html#r0473">R0473</a></td>
+    <td><a href="rules-r.html#r0473">R0473</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Nationality</td>
-    <td>O</td>
+    <td>R</td>
     <td>a2</td>
     <td>CL165</td>
-    <td><a href="rules-b.html#b1897">B1897</a><br /><a href="rules-b.html#b2101">B2101</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp; COUNTRY OF ROUTING OF CONSIGNMENT</strong></td>
     <td>D</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1848">B1848</a><br /><a href="rules-c.html#c0586">C0586</a><br /><a href="rules-g.html#g0061">G0061</a></td>
+    <td><a href="rules-c.html#c0586">C0586</a><br /><a href="rules-g.html#g0061">G0061</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -897,7 +897,7 @@
     <td>D</td>
     <td>9x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1806">B1806</a><br /><a href="rules-c.html#c0806">C0806</a><br /><a href="rules-e.html#e1406">E1406</a><br /><a href="rules-g.html#g0118">G0118</a><br /><a href="rules-r.html#r0789">R0789</a></td>
+    <td><a href="rules-c.html#c0806">C0806</a><br /><a href="rules-g.html#g0118">G0118</a><br /><a href="rules-r.html#r0789">R0789</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -906,28 +906,28 @@
     <td><a href="rules-r.html#r0987">R0987</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Customs office at border reference number</td>
-    <td>O</td>
+    <td>R</td>
     <td>an8</td>
     <td>CL141</td>
-    <td><a href="rules-b.html#b1016">B1016</a><br /><a href="rules-b.html#b2101">B2101</a><br /><a href="rules-g.html#g0789">G0789</a></td>
+    <td><a href="rules-g.html#g0789">G0789</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Type of identification</td>
-    <td>O</td>
+    <td>R</td>
     <td>n2</td>
     <td>CL219</td>
-    <td><a href="rules-b.html#b1838">B1838</a><br /><a href="rules-b.html#b2101">B2101</a><br /><a href="rules-g.html#g0112">G0112</a></td>
+    <td><a href="rules-g.html#g0112">G0112</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Identification number</td>
-    <td>O</td>
+    <td>R</td>
     <td>an..35</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1811">B1811</a><br /><a href="rules-b.html#b1838">B1838</a><br /><a href="rules-b.html#b2101">B2101</a><br /><a href="rules-e.html#e1103">E1103</a><br /><a href="rules-r.html#r0076">R0076</a></td>
+    <td><a href="rules-r.html#r0076">R0076</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Nationality</td>
-    <td>O</td>
+    <td>R</td>
     <td>a2</td>
     <td>CL165</td>
-    <td><a href="rules-b.html#b1850">B1850</a><br /><a href="rules-b.html#b2101">B2101</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Conveyance reference number</td>
     <td>D</td>
@@ -939,7 +939,7 @@
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1893">B1893</a><br /><a href="rules-c.html#c0403">C0403</a></td>
+    <td><a href="rules-c.html#c0409">C0409</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; UN LOCODE</td>
     <td>O</td>
@@ -957,13 +957,13 @@
     <td>D</td>
     <td>an..35</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0387">C0387</a><br /><a href="rules-e.html#e1114">E1114</a></td>
+    <td><a href="rules-c.html#c0387">C0387</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp; PLACE OF UNLOADING</strong></td>
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1858">B1858</a><br /><a href="rules-c.html#c0191">C0191</a></td>
+    <td><a href="rules-c.html#c0191">C0191</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; UN LOCODE</td>
     <td>O</td>
@@ -987,7 +987,7 @@
     <td>O</td>
     <td>9999x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0825">G0825</a></td>
+    <td><a href="rules-g.html#g0825">G0825</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1017,7 +1017,7 @@
     <td>O</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0825">G0825</a></td>
+    <td><a href="rules-g.html#g0825">G0825</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1053,7 +1053,7 @@
     <td>O</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0825">G0825</a></td>
+    <td><a href="rules-g.html#g0825">G0825</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1077,7 +1077,7 @@
     <td>O</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0825">G0825</a></td>
+    <td><a href="rules-g.html#g0825">G0825</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1101,7 +1101,7 @@
     <td>O</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0825">G0825</a></td>
+    <td><a href="rules-g.html#g0825">G0825</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1137,7 +1137,7 @@
     <td>R</td>
     <td>1999x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1406">E1406</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1149,13 +1149,13 @@
     <td>D</td>
     <td>a2</td>
     <td>CL008</td>
-    <td><a href="rules-b.html#b1965">B1965</a><br /><a href="rules-c.html#c0909">C0909</a><br /><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0988">G0988</a><br /><a href="rules-r.html#r0506">R0506</a></td>
+    <td><a href="rules-c.html#c0909">C0909</a><br /><a href="rules-g.html#g0988">G0988</a><br /><a href="rules-r.html#r0506">R0506</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Country of destination</td>
     <td>D</td>
     <td>a2</td>
     <td>CL008</td>
-    <td><a href="rules-c.html#c0343">C0343</a><br /><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0062">G0062</a><br /><a href="rules-g.html#g0113">G0113</a><br /><a href="rules-r.html#r0506">R0506</a></td>
+    <td><a href="rules-c.html#c0343">C0343</a><br /><a href="rules-g.html#g0002">G0002</a><br /><a href="rules-g.html#g0062">G0062</a><br /><a href="rules-g.html#g0113">G0113</a><br /><a href="rules-r.html#r0506">R0506</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Gross mass</td>
     <td>R</td>
@@ -1167,13 +1167,13 @@
     <td>D</td>
     <td>an..35</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0502">C0502</a><br /><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0002">G0002</a><br /><a href="rules-r.html#r0506">R0506</a></td>
+    <td><a href="rules-c.html#c0502">C0502</a><br /><a href="rules-g.html#g0002">G0002</a><br /><a href="rules-r.html#r0506">R0506</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp; CONSIGNOR</strong></td>
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0542">C0542</a><br /><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0123">G0123</a><br /><a href="rules-r.html#r0506">R0506</a></td>
+    <td><a href="rules-c.html#c0542">C0542</a><br /><a href="rules-g.html#g0123">G0123</a><br /><a href="rules-r.html#r0506">R0506</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Identification number</td>
     <td>O</td>
@@ -1245,7 +1245,7 @@
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0001">C0001</a><br /><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0001">G0001</a><br /><a href="rules-r.html#r0506">R0506</a></td>
+    <td><a href="rules-c.html#c0001">C0001</a><br /><a href="rules-g.html#g0001">G0001</a><br /><a href="rules-r.html#r0506">R0506</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Identification number</td>
     <td>O</td>
@@ -1317,7 +1317,7 @@
     <td>D</td>
     <td>999x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0826">C0826</a><br /><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0088">G0088</a><br /><a href="rules-g.html#g0119">G0119</a><br /><a href="rules-r.html#r0506">R0506</a><br /><a href="rules-r.html#r0855">R0855</a></td>
+    <td><a href="rules-c.html#c0826">C0826</a><br /><a href="rules-g.html#g0088">G0088</a><br /><a href="rules-g.html#g0119">G0119</a><br /><a href="rules-r.html#r0506">R0506</a><br /><a href="rules-r.html#r0855">R0855</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1347,7 +1347,7 @@
     <td>O</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0026">G0026</a></td>
+    <td><a href="rules-g.html#g0026">G0026</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1359,7 +1359,7 @@
     <td>R</td>
     <td>an4</td>
     <td>CL228</td>
-    <td><a href="rules-g.html#g0991">G0991</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Reference number</td>
     <td>R</td>
@@ -1377,7 +1377,7 @@
     <td>O</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0825">G0825</a></td>
+    <td><a href="rules-g.html#g0825">G0825</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1413,7 +1413,7 @@
     <td>O</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0825">G0825</a></td>
+    <td><a href="rules-g.html#g0825">G0825</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1437,7 +1437,7 @@
     <td>O</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0825">G0825</a></td>
+    <td><a href="rules-g.html#g0825">G0825</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1461,7 +1461,7 @@
     <td>O</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-g.html#g0825">G0825</a></td>
+    <td><a href="rules-g.html#g0825">G0825</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1485,7 +1485,7 @@
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0186">C0186</a><br /><a href="rules-c.html#c0337">C0337</a><br /><a href="rules-e.html#e1301">E1301</a><br /><a href="rules-r.html#r0506">R0506</a></td>
+    <td><a href="rules-c.html#c0186">C0186</a><br /><a href="rules-c.html#c0337">C0337</a><br /><a href="rules-r.html#r0506">R0506</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Method of payment</td>
     <td>R</td>
@@ -1515,13 +1515,13 @@
     <td>D</td>
     <td>an..5</td>
     <td>CL232</td>
-    <td><a href="rules-b.html#b1922">B1922</a><br /><a href="rules-c.html#c0045">C0045</a><br /><a href="rules-r.html#r0507">R0507</a><br /><a href="rules-r.html#r0601">R0601</a><br /><a href="rules-r.html#r0909">R0909</a></td>
+    <td><a href="rules-c.html#c0045">C0045</a><br /><a href="rules-r.html#r0507">R0507</a><br /><a href="rules-r.html#r0601">R0601</a><br /><a href="rules-r.html#r0909">R0909</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Country of dispatch</td>
     <td>D</td>
     <td>a2</td>
     <td>CL008</td>
-    <td><a href="rules-b.html#b1965">B1965</a><br /><a href="rules-c.html#c0909">C0909</a><br /><a href="rules-g.html#g0988">G0988</a><br /><a href="rules-r.html#r0507">R0507</a></td>
+    <td><a href="rules-c.html#c0909">C0909</a><br /><a href="rules-g.html#g0988">G0988</a><br /><a href="rules-r.html#r0507">R0507</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Country of destination</td>
     <td>D</td>
@@ -1533,55 +1533,7 @@
     <td>D</td>
     <td>an..35</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1895">B1895</a><br /><a href="rules-c.html#c0502">C0502</a><br /><a href="rules-g.html#g0002">G0002</a><br /><a href="rules-r.html#r0507">R0507</a></td>
-</tr><tr>
-    <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp; CONSIGNEE</strong></td>
-    <td>O</td>
-    <td>1x</td>
-    <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1820">B1820</a><br /><a href="rules-b.html#b1877">B1877</a><br /><a href="rules-b.html#b2400">B2400</a><br /><a href="rules-g.html#g0001">G0001</a></td>
-</tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Identification number</td>
-    <td>O</td>
-    <td>an..17</td>
-    <td>&nbsp;</td>
-    <td><a href="rules-r.html#r0851">R0851</a></td>
-</tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Name</td>
-    <td>O</td>
-    <td>an..70</td>
-    <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1821">B1821</a><br /><a href="rules-e.html#e1104">E1104</a></td>
-</tr><tr>
-    <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; ADDRESS</strong></td>
-    <td>O</td>
-    <td>1x</td>
-    <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1821">B1821</a></td>
-</tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Street and number</td>
-    <td>R</td>
-    <td>an..70</td>
-    <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1104">E1104</a></td>
-</tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Postcode</td>
-    <td>O</td>
-    <td>an..17</td>
-    <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1822">B1822</a><br /><a href="rules-e.html#e1102">E1102</a></td>
-</tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; City</td>
-    <td>R</td>
-    <td>an..35</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-</tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Country</td>
-    <td>R</td>
-    <td>a2</td>
-    <td>CL248</td>
-    <td>&nbsp;</td>
+    <td><a href="rules-c.html#c0502">C0502</a><br /><a href="rules-g.html#g0002">G0002</a><br /><a href="rules-r.html#r0507">R0507</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp; ADDITIONAL SUPPLY CHAIN ACTOR</strong></td>
     <td>O</td>
@@ -1617,7 +1569,7 @@
     <td>R</td>
     <td>an..512</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1107">E1107</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; CUS code</td>
     <td>O</td>
@@ -1629,7 +1581,7 @@
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1834">B1834</a><br /><a href="rules-c.html#c0153">C0153</a></td>
+    <td><a href="rules-c.html#c0153">C0153</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Harmonized System sub-heading code</td>
     <td>R</td>
@@ -1647,7 +1599,7 @@
     <td>O</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1406">E1406</a><br /><a href="rules-g.html#g0300">G0300</a></td>
+    <td><a href="rules-g.html#g0300">G0300</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1662,22 +1614,22 @@
     <td>&nbsp;</td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; GOODS MEASURE</strong></td>
-    <td>O</td>
+    <td>R</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b2101">B2101</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Gross mass</td>
-    <td>O</td>
+    <td>R</td>
     <td>n..16,6</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1860">B1860</a><br /><a href="rules-b.html#b2101">B2101</a><br /><a href="rules-e.html#e1109">E1109</a><br /><a href="rules-g.html#g0021">G0021</a><br /><a href="rules-r.html#r0221">R0221</a></td>
+    <td><a href="rules-g.html#g0021">G0021</a><br /><a href="rules-r.html#r0221">R0221</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Net mass</td>
     <td>D</td>
     <td>n..16,6</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1805">B1805</a><br /><a href="rules-b.html#b1862">B1862</a><br /><a href="rules-c.html#c0837">C0837</a><br /><a href="rules-e.html#e1109">E1109</a><br /><a href="rules-r.html#r0223">R0223</a></td>
+    <td><a href="rules-c.html#c0837">C0837</a><br /><a href="rules-r.html#r0223">R0223</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Supplementary units</td>
     <td>O</td>
@@ -1701,25 +1653,25 @@
     <td>R</td>
     <td>an2</td>
     <td>CL017</td>
-    <td><a href="rules-b.html#b1919">B1919</a><br /><a href="rules-r.html#r0220">R0220</a></td>
+    <td><a href="rules-r.html#r0220">R0220</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Number of packages</td>
     <td>D</td>
     <td>n..8</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1819">B1819</a><br /><a href="rules-b.html#b1964">B1964</a><br /><a href="rules-c.html#c0060">C0060</a><br /><a href="rules-e.html#e1111">E1111</a><br /><a href="rules-g.html#g0021">G0021</a><br /><a href="rules-r.html#r0219">R0219</a><br /><a href="rules-r.html#r0364">R0364</a></td>
+    <td><a href="rules-c.html#c0060">C0060</a><br /><a href="rules-g.html#g0021">G0021</a><br /><a href="rules-r.html#r0219">R0219</a><br /><a href="rules-r.html#r0364">R0364</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Shipping marks</td>
     <td>D</td>
     <td>an..512</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0060">C0060</a><br /><a href="rules-e.html#e1105">E1105</a><br /><a href="rules-g.html#g0024">G0024</a></td>
+    <td><a href="rules-c.html#c0060">C0060</a><br /><a href="rules-g.html#g0024">G0024</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp; PREVIOUS DOCUMENT</strong></td>
     <td>D</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1000">B1000</a><br /><a href="rules-c.html#c0035">C0035</a><br /><a href="rules-e.html#e1401">E1401</a><br /><a href="rules-g.html#g0825">G0825</a></td>
+    <td><a href="rules-c.html#c0035">C0035</a><br /><a href="rules-g.html#g0825">G0825</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1731,13 +1683,13 @@
     <td>R</td>
     <td>an4</td>
     <td>CL214</td>
-    <td><a href="rules-g.html#g0057">G0057</a><br /><a href="rules-g.html#g0991">G0991</a><br /><a href="rules-r.html#r0020">R0020</a></td>
+    <td><a href="rules-g.html#g0057">G0057</a><br /><a href="rules-r.html#r0020">R0020</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Reference number</td>
     <td>R</td>
     <td>an..70</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1104">E1104</a><br /><a href="rules-g.html#g0321">G0321</a></td>
+    <td><a href="rules-g.html#g0321">G0321</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Goods item number</td>
     <td>O</td>
@@ -1773,13 +1725,13 @@
     <td>O</td>
     <td>an..35</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1117">E1117</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp; SUPPORTING DOCUMENT</strong></td>
     <td>O</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1407">E1407</a><br /><a href="rules-g.html#g0069">G0069</a><br /><a href="rules-g.html#g0825">G0825</a></td>
+    <td><a href="rules-g.html#g0069">G0069</a><br /><a href="rules-g.html#g0825">G0825</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1797,7 +1749,7 @@
     <td>R</td>
     <td>an..70</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1104">E1104</a><br /><a href="rules-g.html#g0321">G0321</a><br /><a href="rules-g.html#g0414">G0414</a></td>
+    <td><a href="rules-g.html#g0321">G0321</a><br /><a href="rules-g.html#g0414">G0414</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Document line item number</td>
     <td>O</td>
@@ -1809,37 +1761,13 @@
     <td>O</td>
     <td>an..35</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1117">E1117</a></td>
-</tr><tr>
-    <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp; TRANSPORT DOCUMENT</strong></td>
-    <td>O</td>
-    <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1896">B1896</a><br /><a href="rules-b.html#b2400">B2400</a><br /><a href="rules-e.html#e1407">E1407</a></td>
-</tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
-    <td>R</td>
-    <td>n..5</td>
-    <td>&nbsp;</td>
-    <td><a href="rules-r.html#r0987">R0987</a></td>
-</tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Type</td>
-    <td>R</td>
-    <td>an4</td>
-    <td>CL754</td>
-    <td><a href="rules-g.html#g0057">G0057</a></td>
-</tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Reference number</td>
-    <td>R</td>
-    <td>an..70</td>
-    <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1104">E1104</a><br /><a href="rules-g.html#g0321">G0321</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp; ADDITIONAL REFERENCE</strong></td>
     <td>O</td>
     <td>99x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-e.html#e1407">E1407</a><br /><a href="rules-g.html#g0068">G0068</a><br /><a href="rules-g.html#g0825">G0825</a></td>
+    <td><a href="rules-g.html#g0068">G0068</a><br /><a href="rules-g.html#g0825">G0825</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -1857,7 +1785,7 @@
     <td>D</td>
     <td>an..70</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0015">C0015</a><br /><a href="rules-e.html#e1104">E1104</a><br /><a href="rules-g.html#g0050">G0050</a><br /><a href="rules-g.html#g0321">G0321</a><br /><a href="rules-g.html#g0424">G0424</a><br /><a href="rules-r.html#r0023">R0023</a></td>
+    <td><a href="rules-c.html#c0015">C0015</a><br /><a href="rules-g.html#g0050">G0050</a><br /><a href="rules-g.html#g0321">G0321</a><br /><a href="rules-g.html#g0424">G0424</a><br /><a href="rules-r.html#r0023">R0023</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp; ADDITIONAL INFORMATION</strong></td>
     <td>O</td>
@@ -1875,23 +1803,11 @@
     <td>R</td>
     <td>an5</td>
     <td>CL239</td>
-    <td><a href="rules-b.html#b1814">B1814</a><br /><a href="rules-g.html#g0057">G0057</a><br /><a href="rules-r.html#r3061">R3061</a></td>
+    <td><a href="rules-g.html#g0057">G0057</a><br /><a href="rules-r.html#r3061">R3061</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Text</td>
     <td>O</td>
     <td>an..512</td>
     <td>&nbsp;</td>
-    <td>&nbsp;</td>
-</tr><tr>
-    <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp; TRANSPORT CHARGES</strong></td>
-    <td>O</td>
-    <td>1x</td>
-    <td>&nbsp;</td>
-    <td><a href="rules-b.html#b1875">B1875</a><br /><a href="rules-b.html#b1877">B1877</a><br /><a href="rules-b.html#b2400">B2400</a></td>
-</tr><tr>
-    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Method of payment</td>
-    <td>R</td>
-    <td>a1</td>
-    <td>CL116</td>
     <td>&nbsp;</td>
 </tr></table>

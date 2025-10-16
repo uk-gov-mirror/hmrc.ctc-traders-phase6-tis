@@ -255,7 +255,7 @@
     <td>D</td>
     <td>9999x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0670">C0670</a><br /><a href="rules-g.html#g0670">G0670</a></td>
+    <td><a href="rules-c.html#c0670">C0670</a><br /><a href="rules-g.html#g0670">G0670</a><br /><a href="rules-r.html#r0010">R0010</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
     <td>R</td>
@@ -441,7 +441,7 @@
     <td>R</td>
     <td>n2</td>
     <td>CL750</td>
-    <td><a href="rules-b.html#b1091">B1091</a><br /><a href="rules-r.html#r0472">R0472</a><br /><a href="rules-r.html#r0474">R0474</a><br /><a href="rules-r.html#r0476">R0476</a></td>
+    <td><a href="rules-r.html#r0472">R0472</a><br /><a href="rules-r.html#r0474">R0474</a><br /><a href="rules-r.html#r0476">R0476</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Identification number</td>
     <td>R</td>
@@ -501,7 +501,7 @@
     <td>D</td>
     <td>1x</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0404">C0404</a></td>
+    <td><a href="rules-c.html#c0412">C0412</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; UN LOCODE</td>
     <td>O</td>

@@ -243,13 +243,13 @@
     <td>R</td>
     <td>an2</td>
     <td>CL017</td>
-    <td>&nbsp;</td>
+    <td><a href="rules-r.html#r0220">R0220</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Number of packages</td>
     <td>D</td>
     <td>n..8</td>
     <td>&nbsp;</td>
-    <td><a href="rules-c.html#c0060">C0060</a><br /><a href="rules-g.html#g0021">G0021</a><br /><a href="rules-r.html#r0364">R0364</a></td>
+    <td><a href="rules-c.html#c0060">C0060</a><br /><a href="rules-g.html#g0021">G0021</a><br /><a href="rules-r.html#r0219">R0219</a><br /><a href="rules-r.html#r0364">R0364</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp;-&nbsp; Shipping marks</td>
     <td>D</td>

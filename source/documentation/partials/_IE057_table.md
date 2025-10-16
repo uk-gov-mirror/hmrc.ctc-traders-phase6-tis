@@ -74,7 +74,7 @@
     <td>-&nbsp;-&nbsp; Business rejection type</td>
     <td>R</td>
     <td>an3</td>
-    <td>CL570</td>
+    <td>CL560</td>
     <td>&nbsp;</td>
 </tr><tr>
     <td>-&nbsp;-&nbsp; Rejection date and time</td>

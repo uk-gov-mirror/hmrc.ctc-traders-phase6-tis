@@ -149,6 +149,12 @@
     <td>&nbsp;</td>
     <td><a href="rules-g.html#g0021">G0021</a><br /><a href="rules-g.html#g0360">G0360</a></td>
 </tr><tr>
+    <td>-&nbsp;-&nbsp; Reference number UCR</td>
+    <td>O</td>
+    <td>an..70</td>
+    <td>&nbsp;</td>
+    <td><a href="rules-g.html#g0360">G0360</a></td>
+</tr><tr>
     <td><strong>-&nbsp;-&nbsp; TRANSPORT EQUIPMENT</strong></td>
     <td>O</td>
     <td>9999x</td>
@@ -186,10 +192,10 @@
     <td><a href="rules-r.html#r0054">R0054</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Identifier</td>
-    <td>R</td>
+    <td>O</td>
     <td>an..20</td>
     <td>&nbsp;</td>
-    <td><a href="rules-r.html#r0107">R0107</a></td>
+    <td>&nbsp;</td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp; GOODS REFERENCE</strong></td>
     <td>O</td>
@@ -204,7 +210,7 @@
     <td><a href="rules-r.html#r0054">R0054</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Declaration goods item number</td>
-    <td>R</td>
+    <td>O</td>
     <td>n..5</td>
     <td>&nbsp;</td>
     <td><a href="rules-g.html#g0005">G0005</a><br /><a href="rules-g.html#g0006">G0006</a></td>
@@ -237,6 +243,24 @@
     <td>O</td>
     <td>a2</td>
     <td>CL165</td>
+    <td><a href="rules-g.html#g0360">G0360</a></td>
+</tr><tr>
+    <td><strong>-&nbsp;-&nbsp; COUNTRY OF ROUTING OF CONSIGNMENT</strong></td>
+    <td>O</td>
+    <td>99x</td>
+    <td>&nbsp;</td>
+    <td><a href="rules-g.html#g0360">G0360</a></td>
+</tr><tr>
+    <td>-&nbsp;-&nbsp;-&nbsp; Sequence number</td>
+    <td>R</td>
+    <td>n..5</td>
+    <td>&nbsp;</td>
+    <td><a href="rules-r.html#r0054">R0054</a></td>
+</tr><tr>
+    <td>-&nbsp;-&nbsp;-&nbsp; Country</td>
+    <td>O</td>
+    <td>a2</td>
+    <td>CL008</td>
     <td><a href="rules-g.html#g0360">G0360</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp; SUPPORTING DOCUMENT</strong></td>
@@ -285,7 +309,7 @@
     <td>O</td>
     <td>an4</td>
     <td>CL754</td>
-    <td><a href="rules-g.html#g0057">G0057</a><br /><a href="rules-g.html#g0360">G0360</a></td>
+    <td><a href="rules-g.html#g0360">G0360</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Reference number</td>
     <td>O</td>
@@ -334,6 +358,12 @@
     <td>n..16,6</td>
     <td>&nbsp;</td>
     <td><a href="rules-g.html#g0021">G0021</a><br /><a href="rules-g.html#g0360">G0360</a></td>
+</tr><tr>
+    <td>-&nbsp;-&nbsp;-&nbsp; Reference number UCR</td>
+    <td>O</td>
+    <td>an..70</td>
+    <td>&nbsp;</td>
+    <td><a href="rules-g.html#g0360">G0360</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp; DEPARTURE TRANSPORT MEANS</strong></td>
     <td>O</td>
@@ -460,6 +490,12 @@
     <td>n..5</td>
     <td>&nbsp;</td>
     <td><a href="rules-g.html#g0005">G0005</a><br /><a href="rules-r.html#r0055">R0055</a></td>
+</tr><tr>
+    <td>-&nbsp;-&nbsp;-&nbsp;-&nbsp; Reference number UCR</td>
+    <td>O</td>
+    <td>an..70</td>
+    <td>&nbsp;</td>
+    <td><a href="rules-g.html#g0002">G0002</a><br /><a href="rules-g.html#g0360">G0360</a></td>
 </tr><tr>
     <td><strong>-&nbsp;-&nbsp;-&nbsp;-&nbsp; COMMODITY</strong></td>
     <td>O</td>
