@@ -27,16 +27,6 @@ XSD contains a non-standard regular expression for this data item.
 
 N/A
 
-## G0002
-
-**Functional Description**
-
-XSD contains a non-standard regular expression for this data item.
-
-**Technical Description**
-
-N/A
-
 ## G0005
 
 **Functional Description**

@@ -1155,7 +1155,7 @@
     <td>D</td>
     <td>a2</td>
     <td>CL008</td>
-    <td><a href="rules-c.html#c0343">C0343</a><br /><a href="rules-g.html#g0002">G0002</a><br /><a href="rules-g.html#g0062">G0062</a><br /><a href="rules-g.html#g0113">G0113</a><br /><a href="rules-r.html#r0506">R0506</a></td>
+    <td><a href="rules-c.html#c0343">C0343</a><br /><a href="rules-g.html#g0062">G0062</a><br /><a href="rules-g.html#g0113">G0113</a><br /><a href="rules-r.html#r0506">R0506</a></td>
 </tr><tr>
     <td>-&nbsp;-&nbsp;-&nbsp; Gross mass</td>
     <td>R</td>
