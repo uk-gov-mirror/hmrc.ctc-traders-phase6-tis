@@ -54,7 +54,7 @@ The following table lists the documents for CTC Traders API v2.1 and outlines th
             <td><p>Software developers</p> <p>Technical architects </p> <p>Product managers</p> <p>Business analysts</p></td>
         </tr>
         <tr>
-            <td>NCTS phase 5 technical interface specification (this document)</td>
+            <td><a href="https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase5-tis/">NCTS phase 5 technical interface specification</a></td>
             <td>Technical (business logic/rules)</td>
             <td>Low level</td>
             <td><p>Captures UK implementation of NCTS5</p> <p>Shows NCTS5 process flows</p> <p>Lists the message definitions and rules and conditions involved in the exchange of messages between traders and the NCTS for the departure and arrival of transit movements</p></td>
