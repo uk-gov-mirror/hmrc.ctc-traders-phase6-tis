@@ -24,6 +24,7 @@ from os.path import abspath, expanduser
 from message_reference import expected_message_types
 from deepdiff import DeepDiff
 from typing import Optional
+import difflib
 
 expected_message_types = expected_message_types()
 
@@ -177,6 +178,7 @@ if diff.keys().__contains__("dictionary_item_removed"):
 if diff.keys().__contains__("values_changed"):
     changed_rules = list(sorted(map(create_rule_tuple, diff['values_changed']), key=lambda x: x[0]))
     fmt_change_rules = f"Rules changed: {list(dict.fromkeys(map(lambda x: x[0], changed_rules)))}"
+    differ = difflib.Differ()
     result.append(fmt_change_rules)
     for rule_code, rule_type in changed_rules:
         if rule_type == "Technical":
@@ -187,10 +189,13 @@ if diff.keys().__contains__("values_changed"):
         
         Old rule:
         {old_rules[rule_code][index]}
+        {print(old_rules[rule_code][index])}
         
         New rule:
         {new_rules[rule_code][index]}
+        {print(new_rules[rule_code][index])}
         ------""".replace("        ", ""))
+
 
 if len(rules_to_print) > 2:
     for r in rules_to_print:

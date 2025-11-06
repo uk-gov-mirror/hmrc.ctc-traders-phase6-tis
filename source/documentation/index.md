@@ -1,14 +1,14 @@
 ---
-title: NCTS Phase 5 Technical Interface Specification
+title: NCTS Phase 6 Technical Interface Specification
 weight: 1
-description: Software developers, designers, product owners or business analysts. Learn about the processes involved in the exchange of messages between traders and phase 5 of the NCTS at departure and arrival of transit movements, and about the definitions, formats and validations of those messages.
+description: Software developers, designers, product owners or business analysts. Learn about the processes involved in the exchange of messages between traders and phase 6 of the NCTS at departure and arrival of transit movements, and about the definitions, formats and validations of those messages.
 ---
 
-# NCTS Phase 5 Technical Interface Specification
+# NCTS Phase 6 Technical Interface Specification
 
-Version 19.3 issued on 02 January 2025
+Version 19.3 issued on 02 January 2025 **TODO change date and version**
 
-Based on NCTS5 document version 5.15.2-v2.00 and issue date 1 December 2023
+Based on NCTS6 document version 6.4.1-v1.00 and issue date 27 June 2025
 
 ------
 
@@ -18,9 +18,9 @@ This document is the first part of the Technical Interface Specification (TIS) f
 
 It shows the processes involved in the exchange of messages between traders and the NCTS at departure and arrival of transit movements, and provides definitions, formats and validations of those messages.
 
-## Important NCTS5 terms
+## Important NCTS terms
 
-The following terms are important to understand in NCTS5:
+The following terms are important to understand in NCTS:
 
 - **Consignment:** The header information is provided and applies to the whole transit declaration (up to 1 Consignment level per declaration).
 
@@ -96,6 +96,73 @@ The order in you which you might read these documents can depend on whether you 
 
 **Note:** It is crucial to thoroughly read both the NCTS5 service guide and the API reference documentation to gain a full understanding of NCTS5. Relying solely on the NCTS5 technical interface specification will not provide sufficient guidance for implementation.
 
+## Navigating CTC Traders API v3.0 documentation
+
+The following table lists the documents for CTC Traders API v3.0 and outlines the content and intended readers of each document.
+
+<table>
+    <thead>
+        <tr>
+            <th>Document</th>
+            <th>Content type</th>
+            <th>Granularity</th>
+            <th>Summary</th>
+            <th>Intended readers</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><a href="https://developer.service.hmrc.gov.uk/roadmaps/common-transit-convention-traders-roadmap/">CTC Traders API roadmap</a></td>
+            <td>Functional</td>
+            <td>High level</td>
+            <td><p>Outlines current status of API for each NCTS phase</p><p>Outlines any development plans for API</p></td>
+            <td><p>Software developers</p> <p>Technical architects </p> <p>Product managers</p> <p>Business analysts</p></td>
+        </tr>
+        <tr>
+            <td>NCTS phase 6 technical interface specification (this document)</td>
+            <td>Technical (business logic/rules)</td>
+            <td>Low level</td>
+            <td><p>Captures UK implementation of NCTS6</p> <p>Shows NCTS6 process flows</p> <p>Lists the message definitions and rules and conditions involved in the exchange of messages between traders and the NCTS for the departure and arrival of transit movements</p></td>
+            <td><p>Software developers</p> <p>Technical architects </p> <p>Product managers</p> <p>Business analysts</p></td>
+        </tr>
+        <tr>
+          <td><a href="https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase6-service-guide/">CTC Traders API phase 6 service guide</a></td>
+            <td>Technical</td>
+            <td>High level</td>
+            <td><p>How to use the API</p> <p>How to self-onboard</p></td>
+            <td><p>Software developers</p> <p>Technical architects</p></td>
+        </tr>
+        <tr>
+            <td><a href="https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/common-transit-convention-traders/3.0/oas/page">CTC Traders API v3.0 reference</a></td>
+            <td>Technical</td>
+            <td>Low level</td>
+            <td>How to use each API endpoint for Phase 6</td>
+            <td><p>Software developers</p> <p>Technical architects</p></td>
+        </tr>
+        <tr>
+            <td><a href="https://developer.service.hmrc.gov.uk/guides/ctc-traders-phase6-testing-guide/">CTC Traders API phase 6 testing guide</a></td>
+            <td>Functional</td>
+            <td>Low level</td>
+            <td><p>How to carry out assurance testing of your application software to ensure that it is compatible with the API</p> <p>How to carry out production access testing of your software</p></td>
+            <td><p>Software developers</p> <p>Technical architects </p> <p>Product managers</p> <p>Business analysts</p></td>
+        </tr>
+    </tbody>
+</table>
+
+The order in you which you might read these documents can depend on whether you have previous NCTS experience. The following table recommends 2 possible reading orders but you can read the documents in any order you want.
+
+| Suggested reading order | New NCTS users                    | Existing NCTS6 users              |
+|-------------------------|-----------------------------------|-----------------------------------|
+| 1                       | Roadmap                           | Service guide                     |
+| 2                       | Service guide                     | Technical interface specification |
+| 3                       | Technical interface specification | Reference                         |
+| 4                       | Reference                         | Testing guide                     |
+| 5                       | Testing guide                     | Roadmap                           |
+
+**Note:** It is crucial to thoroughly read both the NCTS6 service guide and the API reference documentation to gain a full understanding of NCTS6. Relying solely on the NCTS6 technical interface specification will not provide sufficient guidance for implementation.
+
+
+
 
 ## Introduction
 
@@ -153,7 +220,7 @@ The latest CS/RD2 data is released overnight on a daily basis. The most volatile
 
 It is essential that any software solution developed for traders retrieves these updates on a daily basis to ensure that any validation coded into the software is synchronised with the UK NCTS to prevent unnecessary rejections.
 
-CS/RD2 is maintained by the European Commission and you can download code lists [here](https://ec.europa.eu/taxation_customs/dds2/rd/rd_download_home.jsp?Lang=en). When downloading code lists, ensure that you select **NCTS-P5** in the **Domain** list.
+CS/RD2 is maintained by the European Commission and you can download code lists [here](https://ec.europa.eu/taxation_customs/dds2/rd/rd_download_home.jsp?Lang=en). When downloading code lists, ensure that you select **NCTS-P6** in the **Domain** list.
 
 #### National reference data
 
